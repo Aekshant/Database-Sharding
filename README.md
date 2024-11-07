@@ -8,7 +8,6 @@ This repository provides Docker Compose files and Node.js code examples for impl
 2. [Sharding Types](#sharding-types)
     - [Horizontal Sharding](#horizontal-sharding)
     - [Vertical Sharding](#vertical-sharding)
-3. [Getting Started](#getting-started)
 
 ## Overview
 
@@ -27,8 +26,6 @@ In horizontal sharding, a table is split by rows, with each partition handling a
 ### Vertical Sharding
 
 In vertical sharding, a table is split by columns, with each partition containing only a subset of columns. This can optimize performance by minimizing the amount of data scanned during queries.
-
-## Getting Started
 
 ### Prerequisites
 

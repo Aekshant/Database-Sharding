@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  shard1:
+    image: mysql:8.0
+    container_name: mysql_shard1
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass1
+      MYSQL_DATABASE: shard1_db
+    ports:
+      - "3306:3306"
+
+  shard2:
+    image: mysql:8.0
+    container_name: mysql_shard2
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass2
+      MYSQL_DATABASE: shard2_db
+    ports:
+      - "3307:3306"

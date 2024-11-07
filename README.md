@@ -9,11 +9,6 @@ This repository provides Docker Compose files and Node.js code examples for impl
     - [Horizontal Sharding](#horizontal-sharding)
     - [Vertical Sharding](#vertical-sharding)
 3. [Getting Started](#getting-started)
-4. [Usage](#usage)
-    - [Horizontal Sharding Example](#horizontal-sharding-example)
-    - [Vertical Sharding Example](#vertical-sharding-example)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Overview
 
@@ -39,10 +34,3 @@ In vertical sharding, a table is split by columns, with each partition containin
 
 - [Docker](https://www.docker.com/get-started)
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
